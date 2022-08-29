@@ -31,7 +31,7 @@ export default function Testimonials(){
                         <Image src="/avatar-richard.png" className="w-16 -mt-14" alt="" />
                         <h5 className="text-lg font-bold">Richard Watts</h5>
                         <p className="text-sm text-slate-900">
-                            “Manage has supercharged our team’s workflow. The ability to
+                            “Manage has supercharged our team has workflow. The ability to
                             maintain visibility on larger milestones at all times keeps
                             everyone motivated.”
                         </p>
