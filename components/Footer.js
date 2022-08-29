@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export default function Footer(){
 	return(
 		<footer className="bg-sky-900 my-3">
@@ -7,23 +8,23 @@ export default function Footer(){
 			        	Copyright &copy; 2022, All Rights Reserved
 			        </div>
 			        <div>
-			        	<img src="/logo-white.svg" className="h-8" alt="" />
+			        	<Image src="/logo-white.svg" className="h-8" alt="" />
 			        </div>
 		          	<div className="flex justify-center space-x-4">
 			            <a href="#">
-			            	<img src="/icon-facebook.svg" alt="" className="h-8" />
+			            	<Image src="/icon-facebook.svg" alt="" className="h-8" />
 			            </a>
 			            <a href="#">
-			            	<img src="/icon-youtube.svg" alt="" className="h-8" />
+			            	<Image src="/icon-youtube.svg" alt="" className="h-8" />
 			            </a>
 			            <a href="#">
-			            	<img src="/icon-twitter.svg" alt="" className="h-8" />
+			            	<Image src="/icon-twitter.svg" alt="" className="h-8" />
 			            </a>
 			            <a href="#">
-			            	<img src="/icon-pinterest.svg" alt="" className="h-8" />
+			            	<Image src="/icon-pinterest.svg" alt="" className="h-8" />
 			            </a>
 			            <a href="#">
-			            	<img src="/icon-instagram.svg" alt="" className="h-8" />
+			            	<Image src="/icon-instagram.svg" alt="" className="h-8" />
 			            </a>
 		          	</div>
 		        </div>

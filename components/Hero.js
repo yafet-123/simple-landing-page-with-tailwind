@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export default function Hero(){
     return(
         <section id="hero">
@@ -20,7 +21,7 @@ export default function Hero(){
                     </div>
                 </div>
                 <div className="md:w-1/2">
-                    <img src="/illustration-intro.svg" alt="" />
+                    <Image src="/illustration-intro.svg" alt="" />
                 </div>
             </div>
         </section>
