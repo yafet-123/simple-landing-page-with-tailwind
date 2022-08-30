@@ -1,30 +1,30 @@
 import Image from 'next/image'
 export default function Footer(){
 	return(
-		<footer className="bg-sky-900 my-3">
+		<footer className="bg-sky-900 my-3 mx-20">
       		<div className="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
 		        <div className="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
 			        <div className="mx-auto my-6 text-center text-white md:hidden">
 			        	Copyright &copy; 2022, All Rights Reserved
 			        </div>
 			        <div>
-			        	<Image src="/logo-white.svg" className="h-8" alt="" />
+			        	<Image src="/logo-white.svg" className="h-8" alt="" width={100} height={35} />
 			        </div>
 		          	<div className="flex justify-center space-x-4">
 			            <a href="#">
-			            	<Image src="/icon-facebook.svg" alt="" className="h-8" />
+			            	<Image src="/icon-facebook.svg" alt="" className="h-8" width={25} height={25} />
 			            </a>
 			            <a href="#">
-			            	<Image src="/icon-youtube.svg" alt="" className="h-8" />
+			            	<Image src="/icon-youtube.svg" alt="" className="h-8" width={25} height={25} />
 			            </a>
 			            <a href="#">
-			            	<Image src="/icon-twitter.svg" alt="" className="h-8" />
+			            	<Image src="/icon-twitter.svg" alt="" className="h-8" width={25} height={25} />
 			            </a>
 			            <a href="#">
-			            	<Image src="/icon-pinterest.svg" alt="" className="h-8" />
+			            	<Image src="/icon-pinterest.svg" alt="" className="h-8" width={25} height={25} />
 			            </a>
 			            <a href="#">
-			            	<Image src="/icon-instagram.svg" alt="" className="h-8" />
+			            	<Image src="/icon-instagram.svg" alt="" className="h-8" width={25} height={25} />
 			            </a>
 		          	</div>
 		        </div>

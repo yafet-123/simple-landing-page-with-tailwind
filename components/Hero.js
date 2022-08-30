@@ -21,7 +21,7 @@ export default function Hero(){
                     </div>
                 </div>
                 <div className="md:w-1/2">
-                    <Image src="/illustration-intro.svg" alt="" />
+                    <Image src="/illustration-intro.svg" alt="" width={1000} height={750}/>
                 </div>
             </div>
         </section>

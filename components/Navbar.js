@@ -2,7 +2,6 @@ import {useState} from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi';
 import {AiOutlineClose} from 'react-icons/ai'
 import Image from 'next/image'
-import {Logo } from '../public/logo.svg'
 export default function Navbar(){
     const [active,setActive] = useState(false)
 
@@ -12,7 +11,7 @@ export default function Navbar(){
     return(
         <nav className="relative container mx-auto p-6">
             <div className="flex items-center justify-between">
-                <div className="pt-2"> <Image src={Logo} alt="" /> </div>
+                <div className="pt-2"> <Image src="/logo.svg" alt="" width={100} height={35}/> </div>
 
                 <div className="hidden space-x-6 text-gray-700 md:flex">
                     <a href="#" className="hover:text-gray-500 text-lg">Pricing</a>
@@ -32,7 +31,7 @@ export default function Navbar(){
                     onClick={showMenu}
                     className="block hamburger md:hidden focus:outline-none"
                 />
-                <ul className={active ? 'w-100 flex-col text-gray-700 text-lg flex items-end fixed inset-0 uppercase bg-transparent backdrop-blur-lg gap-8 p-8 md:hidden' : 'hidden'}>
+                <ul className={active ? 'z-10 w-100 flex-col text-gray-700 text-xl flex items-end fixed inset-0 uppercase bg-transparent backdrop-blur-lg gap-8 p-8 md:hidden' : 'hidden'}>
                     <AiOutlineClose 
                         onClick={showMenu}
                         className="block hamburger flex justify-end md:hidden focus:outline-none"

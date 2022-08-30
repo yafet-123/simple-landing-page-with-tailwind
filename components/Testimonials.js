@@ -8,7 +8,7 @@ export default function Testimonials(){
                 </h2>
                 <div className="my-5 flex flex-col mt-24 md:flex-row md:space-x-6">
                     <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-100 md:w-1/3">
-                        <Image src="/avatar-anisha.png" className="w-16 -mt-14" alt="" />
+                        <Image src="/avatar-anisha.png" className="w-16 -mt-14" alt="" width={50} height={50} />
                         <h5 className="text-lg font-bold">Anisha Li</h5>
                         <p className="text-sm text-slate-900">
                             “Manage has supercharged our team’s workflow. The ability to
@@ -18,7 +18,7 @@ export default function Testimonials(){
                     </div>
                     
                     <div className="my-5 flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-100 md:flex md:w-1/3 md:my-0">
-                        <Image src="/avatar-ali.png" className="w-16 -mt-14" alt="" />
+                        <Image src="/avatar-ali.png" className="w-16 -mt-14" alt="" width={50} height={50} />
                         <h5 className="text-lg font-bold">Ali Bravo</h5>
                         <p className="text-sm text-slate-900">
                             “We have been able to cancel so many other subscriptions since
@@ -28,7 +28,7 @@ export default function Testimonials(){
                     </div>
 
                     <div className="my-5 flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-100 md:flex md:w-1/3 md:my-0">
-                        <Image src="/avatar-richard.png" className="w-16 -mt-14" alt="" />
+                        <Image src="/avatar-richard.png" className="w-16 -mt-14" alt="" width={50} height={50} />
                         <h5 className="text-lg font-bold">Richard Watts</h5>
                         <p className="text-sm text-slate-900">
                             “Manage has supercharged our team has workflow. The ability to
